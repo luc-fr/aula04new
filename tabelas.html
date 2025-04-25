@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="background-color: yellow;">
+        <h1 style="color: red; background: black;">Tabelas com HTML</h1>
+        <hr>
+        <table border="2">
+            <tr>
+                <td>C1</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>C3</td>
+                <td>C4</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+    <h2>Tabelas com Cabeçalhos</h2>
+    <table border="2">
+        <thead> <!-- Tag para informar que é cabeçalho -->
+            <tr> <!-- Tag de linha -->
+                <th>Código</th> <!-- Tag para coluna centralizada com negrito -->
+                <th>Nome</th>
+            </tr>
+        </thead>
+        <tbody> <!-- Tag para informar que é corpo -->
+            <tr>
+                <td>001</td> <!-- Tag para coluna -->
+                <td>José</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Maria Alice</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Tabelas com Mesclagens</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="5">Folha de Pedido</th>
+            </tr>
+            <tr>
+                <th>Cód</th>
+                <th>Descrição</th>
+                <th>Qtde</th>
+                <th>Valor Unit</th>
+                <th>Sub Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Arroz</td>
+                <td>10</td>
+                <td>R$ 2,50</td>
+                <td>R$ 25,00</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Feijão</td>
+                <td>10</td>
+                <td>R$ 4,50</td>
+                <td>R$ 45,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Assinatura :</td>
+                <td rowspan="2">R$ 70,00</td>
+            </tr>
+            <tr>
+                <td colspan="4">Total :</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
